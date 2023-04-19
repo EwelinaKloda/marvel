@@ -1,0 +1,217 @@
+
+        body{
+            padding: 0;
+            margin: 0;
+            font-family: 'Titan One', cursive;
+        }
+
+        .slide-container {
+            width: 100%;
+            height:85vh;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            background-color: black;
+            
+            
+        }
+
+        .image-slider{
+            width: 100%;
+            height: 80vh;
+            position: absolute;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 1s;
+        }
+        
+        .slides-div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 30px;
+        }
+
+        .img{
+            position: relative;
+            
+            height: 50vh;
+            transition: 0.5s;
+            
+           
+        }
+
+        .button {
+            position: absolute;
+            height: 50vh;
+            width: 20%;
+            transition: 0.5s;
+            
+        }
+
+        #slider-span1:target ~ .image-slider #img1,
+        #slider-span1:target ~.image-slider #button-1{
+            height: 75vh;
+            
+            background-color: transparent;
+        }
+        #slider-span2:target ~ .image-slider #img2,
+        #slider-span2:target ~.image-slider #button-2{
+            height: 75vh;
+            background-color: transparent;
+        }
+        #slider-span3:target ~ .image-slider #img3,
+        #slider-span3:target ~.image-slider #button-3{
+            height: 75vh;
+            background-color: transparent;
+        }
+        #slider-span4:target ~ .image-slider #img4,
+        #slider-span4:target ~.image-slider #button-4{
+            height: 75vh;
+            background-color: transparent;
+        }
+        #slider-span5:target ~ .image-slider #img5,
+        #slider-span5:target ~.image-slider #button-5{
+            height: 75vh;
+            background-color: transparent;
+        }
+        #slider-span6:target ~ .image-slider #img6,
+        #slider-span6:target ~.image-slider #button-6{
+            height: 75vh;
+            background-color: transparent;
+        }
+        #slider-span7:target ~ .image-slider #img7,
+        #slider-span7:target ~.image-slider #button-7{
+            height: 75vh;
+            background-color: transparent;
+        }
+        #slider-span8:target ~ .image-slider #img8,
+        #slider-span8:target ~.image-slider #button-8{
+            height: 75vh;
+            background-color: transparent;
+        }
+
+        #slider-span1:target ~.image-slider{
+            left:60%;
+        }
+        #slider-span2:target ~.image-slider{
+            left:50%;
+        }
+        #slider-span3:target ~.image-slider{
+            left:40%;
+        }
+        #slider-span4:target ~.image-slider{
+            left:30%;
+        }
+        #slider-span5:target ~.image-slider{
+            left:10%;
+        }
+        #slider-span6:target ~.image-slider{
+            left:-30%;
+        }
+        #slider-span7:target ~.image-slider{
+            left:-50%;
+        }
+        #slider-span8:target ~.image-slider{
+            left:-70%;
+        }
+
+.menu{
+    font-family: 'Lilita One', cursive;
+    font-family: 'Nanum Gothic Coding', monospace;
+    
+}
+h1{
+    letter-spacing: 7px;
+    margin-top: 10px;
+    font-size: 4vh;
+    height: 10vh;
+    padding-top: 5vh;
+    border: solid 1px black;
+}
+
+header{
+    
+    height: 4vh;
+    font-size: 3vh;
+    width: 100%;
+    padding-top:0.5vh ;
+    text-align: center;
+    font-family: 'Titan One', cursive;
+    border-bottom: solid 1px black;
+   
+}
+.menu{
+    
+    height: 4vh;
+    font-size: 3vh;
+    width: 60%;
+    padding-top:0.5vh ;
+    text-align: center;
+    font-family: 'Titan One', cursive;
+    float: left;
+   
+}
+#aboutme{
+
+width: 20%;
+}
+#contact{
+    
+width: 20%;
+}
+#icon{
+    height: 4vh;
+   
+    width: 20%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#aboutmetext{
+    line-height: 3vh;
+    margin-top: 10%;
+    
+}
+h2,h3{
+    
+    margin-left: 30%;
+    margin-top: 10%;
+    
+}
+#h2{
+    margin-bottom: -20vh;
+}
+p{
+    float: left;
+    margin-left: 30%;
+    
+}
+#pic{
+    float: left;
+    
+    margin-left: 10vh;
+}
+.contactme{
+    width: 40vh;
+    height: 5vh;
+    border-radius: 10px;
+}
+#button{
+    height: 4vh;
+    width: 10vh;
+    background-color: grey;
+    font-family: 'Titan One', cursive;
+    font-size: 15px;
+    border-radius: 20px;
+   
+}
+#textsend{
+    height: 20vh;
+    
+}
+
+    
